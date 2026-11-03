@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Unblocked Math Zone</title>
+    <style>
+        body { background-color: #0f172a; color: #f8fafc; font-family: sans-serif; text-align: center; padding: 20px; }
+        h1 { color: #f43f5e; font-size: 2.5rem; margin-bottom: 30px; text-shadow: 0 0 10px rgba(244,63,94,0.5); }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; max-width: 1000px; margin: 0 auto; }
+        .card { background: #1e293b; padding: 25px; border-radius: 12px; border: 2px solid #334155; text-decoration: none; color: #fff; font-weight: bold; font-size: 1.2rem; transition: 0.2s; display: block; }
+        .card:hover { transform: translateY(-5px); border-color: #f43f5e; background: #334155; box-shadow: 0 5px 15px rgba(244,63,94,0.3); }
+    </style>
+</head>
+<body>
+
+    <h1>🎮 MY MATH ARCADE 🎮</h1>
+    
+    <div class="grid">
+        <!-- Add cards for your games here. Simply point the href to the game folders in your repo! -->
+        <a class="card" href="/0-fx2.html/">🎯 Game 1 (0-fx2)</a>
+        <a class="card" href="/101-fix.html/">🚗 Game 2 (101-fix)</a>
+        <a class="card" href="/104-fix2.html/">🧩 Game 3 (104-fix2)</a>
+        <a class="card" href="/106-fix.html/">🚀 Game 4 (106-fix)</a>
+    </div>
+
+</body>
+</html>
